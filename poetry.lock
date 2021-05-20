@@ -27,6 +27,14 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "markdown2"
+version = "2.4.0"
+description = "A fast and complete Python implementation of Markdown"
+category = "main"
+optional = false
+python-versions = ">=3.5, <4"
+
+[[package]]
 name = "pytz"
 version = "2021.1"
 description = "World timezone definitions, modern and historical"
@@ -45,7 +53,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "502f2ebe0c322e4d225a6406e088e9ca4e581b9da80e41572266bc0d7d3f141d"
+content-hash = "fcfe4970e2c7c8eb47ae96107b2a15e38e0a879748a438b0e1b98a188da54039"
 
 [metadata.files]
 asgiref = [
@@ -55,6 +63,10 @@ asgiref = [
 django = [
     {file = "Django-3.2.2-py3-none-any.whl", hash = "sha256:18dd3145ddbd04bf189ff79b9954d08fda5171ea7b57bf705789fea766a07d50"},
     {file = "Django-3.2.2.tar.gz", hash = "sha256:0a1d195ad65c52bf275b8277b3d49680bd1137a5f55039a806f25f6b9752ce3d"},
+]
+markdown2 = [
+    {file = "markdown2-2.4.0-py2.py3-none-any.whl", hash = "sha256:8d4ef4a2d090c99532069c4611a9a2b9bea6ae1fa29b6c3727c95d1e31a8f6c5"},
+    {file = "markdown2-2.4.0.tar.gz", hash = "sha256:28d769f0e544e6f68f684f01e9b186747b079a6927d9ca77ebc8c640a2829b1b"},
 ]
 pytz = [
     {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
